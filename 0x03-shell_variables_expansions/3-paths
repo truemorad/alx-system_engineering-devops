@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -n $PASH
+echo $PATH | ls -n
