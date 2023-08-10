@@ -10,15 +10,36 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<echo\>
+
 # Command Line History (newest to oldest):
-:q!
-|2,0,1690534748,,"q!"
 :wq
-|2,0,1690213928,,"wq"
+|2,0,1691709609,,"wq"
+:q!
+|2,0,1691709309,,"q!"
+:wq!
+|2,0,1691535120,,"wq!"
+:wqq
+|2,0,1691425018,,"wqq"
+:q1!
+|2,0,1691419726,,"q1!"
 :q
-|2,0,1690127785,,"q"
+|2,0,1691002057,,"q"
+:Wq
+|2,0,1690984346,,"Wq"
+:q1
+|2,0,1690918542,,"q1"
+:Q!
+|2,0,1690901315,,"Q!"
 
 # Search String History (newest to oldest):
+? \<echo\>
+|2,1,1691578805,,"\\<echo\\>"
+? \<bin\>
+|2,1,1691083062,,"\\<bin\\>"
+? \<HEAD\>
+|2,1,1690918948,,"\\<HEAD\\>"
 
 # Expression History (newest to oldest):
 
@@ -27,292 +48,947 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	#!/bin/bash
 	echo "The School is open!"
-|3,1,1,1,2,0,1690128462,"#!/bin/bash","echo \"The School is open!\""
+|3,0,1,1,2,0,1690128462,"#!/bin/bash","echo \"The School is open!\""
+""-	CHAR	0
+	T
+|3,1,36,0,1,0,1691535003,"T"
 
 # File marks:
-'0  1  0  ~/0x03_vi/training
-|4,48,1,0,1690534748,"~/0x03_vi/training"
-'1  1  0  ~/0x03_vi/pasting
-|4,49,1,0,1690213928,"~/0x03_vi/pasting"
-'2  1  1  ~/0x03_vi/cutting
-|4,50,1,1,1690213857,"~/0x03_vi/cutting"
-'3  1  0  ~/0x03_vi/inserting
-|4,51,1,0,1690213733,"~/0x03_vi/inserting"
-'4  2  24  /alx-pre_course/0x01-git/bash/school
-|4,52,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
-'5  2  24  /alx-pre_course/0x01-git/bash/school
-|4,53,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
-'6  1  10  /alx-pre_course/0x01-git/bash/school
-|4,54,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
-'7  1  10  /alx-pre_course/0x01-git/bash/school
-|4,55,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
-'8  1  10  /alx-pre_course/0x01-git/bash/school
-|4,56,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
-'9  1  10  /alx-pre_course/0x01-git/bash/school
-|4,57,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
+'0  2  17  ~/0x00-hello_world/0-preprocessor
+|4,48,2,17,1691709609,"~/0x00-hello_world/0-preprocessor"
+'1  1  0  ~/0x00-hello_world
+|4,49,1,0,1691709309,"~/0x00-hello_world"
+'2  20  3  ~/Betty/betty
+|4,50,20,3,1691708735,"~/Betty/betty"
+'3  2  70  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,51,2,70,1691578903,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+'4  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,52,2,21,1691578775,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+'5  2  22  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,53,2,22,1691578736,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+'6  2  22  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,54,2,22,1691578736,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+'7  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,55,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+'8  1  10  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,56,1,10,1691536646,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+'9  2  30  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/102-odd
+|4,57,2,30,1691536616,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/102-odd"
 
 # Jumplist (newest first):
--'  1  0  ~/0x03_vi/training
-|4,39,1,0,1690534748,"~/0x03_vi/training"
--'  1  0  ~/0x03_vi/pasting
-|4,39,1,0,1690213928,"~/0x03_vi/pasting"
--'  1  0  ~/0x03_vi/pasting
-|4,39,1,0,1690213928,"~/0x03_vi/pasting"
--'  1  1  ~/0x03_vi/cutting
-|4,39,1,1,1690213857,"~/0x03_vi/cutting"
--'  1  1  ~/0x03_vi/cutting
-|4,39,1,1,1690213857,"~/0x03_vi/cutting"
--'  1  1  ~/0x03_vi/cutting
-|4,39,1,1,1690213857,"~/0x03_vi/cutting"
--'  1  1  ~/0x03_vi/cutting
-|4,39,1,1,1690213857,"~/0x03_vi/cutting"
--'  1  0  ~/0x03_vi/inserting
-|4,39,1,0,1690213733,"~/0x03_vi/inserting"
--'  1  0  ~/0x03_vi/inserting
-|4,39,1,0,1690213733,"~/0x03_vi/inserting"
--'  1  0  ~/0x03_vi/inserting
-|4,39,1,0,1690213733,"~/0x03_vi/inserting"
--'  1  0  ~/0x03_vi/inserting
-|4,39,1,0,1690213733,"~/0x03_vi/inserting"
--'  1  0  ~/0x03_vi/inserting
-|4,39,1,0,1690213733,"~/0x03_vi/inserting"
--'  1  0  ~/0x03_vi/inserting
-|4,39,1,0,1690213733,"~/0x03_vi/inserting"
--'  1  0  ~/0x03_vi/inserting
-|4,39,1,0,1690213733,"~/0x03_vi/inserting"
--'  1  0  ~/0x03_vi/inserting
-|4,39,1,0,1690213733,"~/0x03_vi/inserting"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128837,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  2  24  /alx-pre_course/0x01-git/bash/school
-|4,39,2,24,1690128713,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128694,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  10  /alx-pre_course/0x01-git/bash/school
-|4,39,1,10,1690128540,"/alx-pre_course/0x01-git/bash/school"
--'  1  0  /alx-pre_course/0x01-git/bash/school
-|4,39,1,0,1690128472,"/alx-pre_course/0x01-git/bash/school"
--'  1  0  /alx-pre_course/0x01-git/bash/school
-|4,39,1,0,1690128472,"/alx-pre_course/0x01-git/bash/school"
--'  1  0  /alx-pre_course/0x01-git/bash/school
-|4,39,1,0,1690128472,"/alx-pre_course/0x01-git/bash/school"
--'  1  0  /alx-pre_course/0x01-git/bash/school
-|4,39,1,0,1690128472,"/alx-pre_course/0x01-git/bash/school"
--'  1  0  /alx-pre_course/0x01-git/bash/school
-|4,39,1,0,1690128472,"/alx-pre_course/0x01-git/bash/school"
+-'  2  17  ~/0x00-hello_world/0-preprocessor
+|4,39,2,17,1691709609,"~/0x00-hello_world/0-preprocessor"
+-'  1  0  ~/0x00-hello_world/0-preprocessor
+|4,39,1,0,1691709559,"~/0x00-hello_world/0-preprocessor"
+-'  1  0  ~/0x00-hello_world
+|4,39,1,0,1691709309,"~/0x00-hello_world"
+-'  1  0  ~/0x00-hello_world
+|4,39,1,0,1691709309,"~/0x00-hello_world"
+-'  20  3  ~/Betty/betty
+|4,39,20,3,1691708735,"~/Betty/betty"
+-'  20  3  ~/Betty/betty
+|4,39,20,3,1691708735,"~/Betty/betty"
+-'  20  3  ~/Betty/betty
+|4,39,20,3,1691708735,"~/Betty/betty"
+-'  20  3  ~/Betty/betty
+|4,39,20,3,1691708735,"~/Betty/betty"
+-'  1  0  ~/Betty/betty
+|4,39,1,0,1691708717,"~/Betty/betty"
+-'  1  0  ~/Betty/betty
+|4,39,1,0,1691708717,"~/Betty/betty"
+-'  1  0  ~/Betty/betty
+|4,39,1,0,1691708717,"~/Betty/betty"
+-'  1  0  ~/Betty/betty
+|4,39,1,0,1691708717,"~/Betty/betty"
+-'  2  70  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,70,1691578903,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  70  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,70,1691578903,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  70  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,70,1691578903,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  70  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,70,1691578903,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  70  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,70,1691578903,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  70  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,70,1691578903,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  70  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,70,1691578903,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  70  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,70,1691578903,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,21,1691578775,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,21,1691578775,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,21,1691578775,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,21,1691578775,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,21,1691578775,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,21,1691578775,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,21,1691578775,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,21,1691578775,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  22  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,22,1691578736,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  22  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,22,1691578736,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  22  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,22,1691578736,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  22  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,22,1691578736,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  22  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,22,1691578736,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  22  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,22,1691578736,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  22  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,22,1691578736,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  2  22  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+|4,39,2,22,1691578736,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
+-'  1  1  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+|4,39,1,1,1691536966,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13"
 
 # History of marks within files (newest to oldest):
 
-> ~/0x03_vi/training
-	*	1690534743	0
+> ~/0x00-hello_world/0-preprocessor
+	*	1691709606	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	17
+
+> ~/0x00-hello_world
+	*	1691709301	0
+	"	1	0
+
+> ~/Betty/betty
+	*	1691708731	0
+	"	20	3
+	^	20	4
+	.	20	3
+	+	20	3
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/103-water_and_stir
+	*	1691578902	0
+	"	2	70
+	^	2	71
+	.	2	69
+	+	2	69
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/101-rot13
+	*	1691536964	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	2	12
+	+	1	1
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/102-odd
+	*	1691536614	0
+	"	2	30
+	^	2	31
+	.	2	30
+	+	2	30
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/100-decimal_to_hexadecimal
+	*	1691535589	0
+	"	2	21
+	^	2	22
+	.	2	21
+	+	2	21
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/13-print_float
+	*	1691535564	0
+	"	2	7
+	^	2	8
+	.	2	7
+	+	2	7
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/11-binary_to_decimal
+	*	1691535480	0
+	"	2	10
+	^	2	12
+	.	2	11
+	+	2	11
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/clear
+	*	1691535301	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/12-combinations
+	*	1691535282	0
+	"	2	45
+	^	2	46
+	.	2	45
+	+	2	45
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/10-love_exponent_breath
+	*	1691535126	0
+	"	2	8
+	^	2	8
+	.	2	8
+	+	2	8
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
+	*	1691535077	0
+	"	2	8
+	^	2	9
+	.	2	8
+	+	2	8
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/7-create_global_variable
+	*	1691535035	0
+	"	2	7
+	^	2	7
+	.	2	6
+	+	2	4
+	+	2	6
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/6-create_local_variable
+	*	1691534987	0
+	"	2	3
+	^	2	4
+	.	2	3
+	+	1	11
+	+	2	13
+	+	3	0
+	+	2	3
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/3-paths
+	*	1691534948	0
+	"	2	29
+	^	2	30
+	.	2	30
+	+	2	30
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/3
+	*	1691534919	0
+	"	1	0
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/2-path
+	*	1691534910	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	17
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/8-true_knowledge
+	*	1691522621	0
+	"	2	17
+	^	2	17
+	.	2	16
+	+	2	16
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/5-local_variables
+	*	1691508455	0
+	"	2	2
+	^	2	3
+	.	2	3
+	+	2	3
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/4-global_variables
+	*	1691508192	0
+	"	2	7
+	^	2	8
+	.	2	7
+	+	2	7
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/1-hello_you
+	*	1691507107	0
+	"	2	5
+	^	2	6
+	.	2	5
+	+	2	5
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/0-alias
+	*	1691506960	0
+	"	2	14
+	^	2	15
+	.	2	14
+	+	2	14
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/11-directories
+	*	1691503445	0
+	"	2	12
+	^	2	13
+	.	2	13
+	+	2	13
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/11
+	*	1691503416	0
+	"	1	0
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/101-gifs
+	*	1691439458	0
+	"	2	6
+	^	2	7
+	.	2	6
+	+	2	6
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/103-the_biggest_fan
+	*	1691439295	0
+	"	2	101
+	^	2	102
+	.	2	101
+	+	2	101
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/103
+	*	1691439278	0
+	"	1	0
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/102-acrostic
+	*	1691439266	0
+	"	2	24
+	^	2	25
+	.	2	24
+	+	2	24
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/102
+	*	1691438010	0
+	"	1	0
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/100-empty_casks
+	*	1691436847	0
+	"	2	6
+	^	2	7
+	.	2	6
+	+	2	6
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/18-letteronly
+	*	1691425928	0
+	"	2	13
+	^	2	14
+	.	2	13
+	+	2	7
+	+	1	0
+	+	2	13
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/22
+	*	1691425919	0
+	"	1	0
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/18
+	*	1691425818	0
+	"	1	0
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
+	*	1691425597	0
+	"	2	22
+	^	2	23
+	.	2	22
+	+	2	22
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/19
+	*	1691425587	0
+	"	1	0
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/17-hidethisword
+	*	1691425548	0
+	"	2	24
+	^	2	25
+	.	2	24
+	+	2	24
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/16-whatsnext
+	*	1691425524	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	17
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
+	*	1691425453	0
+	"	2	34
+	^	2	35
+	.	2	34
+	+	2	34
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
+	*	1691425273	0
+	"	2	2
+	^	2	3
+	.	2	2
+	+	2	2
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
+	*	1691425217	0
+	"	2	9
+	^	2	10
+	.	2	9
+	+	2	9
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/15-countthatword
+	*	1691424430	0
+	"	2	6
+	^	2	7
+	.	2	7
+	+	2	7
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/14-findthatword
+	*	1691424111	0
+	"	2	3
+	^	2	4
+	.	2	4
+	+	2	4
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/13-unique
+	*	1691423810	0
+	"	2	13
+	^	2	14
+	.	2	13
+	+	1	11
+	+	2	13
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/12-newest_files
+	*	1691423560	0
+	"	2	18
+	^	2	19
+	.	2	18
+	+	2	18
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/10-no_more_js
+	*	1691422641	0
+	"	2	34
+	^	2	35
+	.	2	34
+	+	2	34
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/9-duplicate_last_line
+	*	1691421900	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	17
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/8-cwd_state
+	*	1691421332	0
+	"	2	22
+	^	2	23
+	.	2	22
+	+	2	22
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/7-file
+	*	1691420916	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	2	64
+	+	1	1
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/77
+	*	1691419726	0
+	"	1	0
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/6-third_line
+	*	1691419180	0
+	"	2	26
+	^	2	27
+	.	2	26
+	+	2	26
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/5-firstlines
+	*	1691418672	0
+	"	2	21
+	^	2	22
+	.	2	21
+	+	2	21
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/4-lastlines
+	*	1691418589	0
+	"	2	21
+	^	2	22
+	.	2	21
+	+	2	21
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/3-twofiles
+	*	1691418528	0
+	"	2	14
+	^	2	15
+	.	2	15
+	+	2	15
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/2-hellofile
+	*	1691417359	0
+	"	2	14
+	^	2	15
+	.	2	14
+	+	2	14
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/1-confused_smiley
+	*	1691417307	0
+	"	2	7
+	^	2	8
+	.	2	7
+	+	2	7
+
+> ~/alx-system_engineering-devops/0x02-shell_redirections/0-hello_world
+	*	1691416823	0
+	"	2	17
+	^	2	18
+	.	2	18
+	+	2	18
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+	*	1691090564	0
+	"	2	28
+	^	2	29
+	.	2	28
+	+	1	11
+	+	2	28
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/102-if_only
+	*	1691089415	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	2	11
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/101-symbolic_link_permissions
+	*	1691089082	0
+	"	2	1
+	^	2	2
+	.	2	2
+	+	2	2
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/100-change_owner_and_group
+	*	1691088830	0
+	"	2	20
+	^	2	21
+	.	2	20
+	+	2	20
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/13-change_group
+	*	1691086511	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	17
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/12-directory_permissions
+	*	1691086373	0
+	"	2	18
+	^	2	19
+	.	2	18
+	+	2	18
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/11-directories_permissions
+	*	1691086226	0
+	"	2	13
+	^	2	14
+	.	2	13
+	+	2	13
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/10-mirror_permissions
+	*	1691085186	0
+	"	2	16
+	^	2	17
+	.	2	17
+	+	2	30
+	+	3	0
+	+	2	17
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/7-everybody
+	*	1691084819	0
+	"	2	10
+	^	2	11
+	.	2	10
+	+	2	10
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/9-John_Doe
+	*	1691084470	0
+	"	2	14
+	^	2	15
+	.	2	14
+	+	2	14
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/8-James_Bond
+	*	1691084265	0
+	"	2	14
+	^	2	15
+	.	2	14
+	+	2	14
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/6-multiple_permissions
+	*	1691084034	0
+	"	2	6
+	^	2	7
+	.	2	6
+	+	2	6
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/5-execute
+	*	1691083811	0
+	"	2	14
+	^	2	15
+	.	2	14
+	+	2	14
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/4-empty
+	*	1691083709	0
+	"	2	10
+	^	2	11
+	.	2	10
+	+	2	10
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/3-new_owner
+	*	1691083642	0
+	"	2	16
+	^	2	17
+	.	2	17
+	+	2	17
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/2-groups
+	*	1691083294	0
+	"	2	5
+	^	2	6
+	.	2	5
+	+	1	4
+	+	1	0
+	+	2	0
+	+	1	10
+	+	2	5
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
+	*	1691070974	0
+	"	2	5
+	^	2	6
+	.	2	5
+	+	2	5
+
+> ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+	*	1691070461	0
+	"	2	1
+	^	2	2
+	.	2	1
+	+	2	1
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/school.mgc
+	*	1691002054	0
+	"	1	15
+	^	1	16
+	.	1	15
+	+	1	42
+	+	1	0
+	+	1	27
+	+	1	14
+	+	1	39
+	+	1	21
+	+	1	27
+	+	1	16
+	+	1	15
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/103-commas
+	*	1690988040	0
+	"	2	7
+	^	2	8
+	.	2	7
+	+	2	7
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/102-tree
+	*	1690987809	0
+	"	2	25
+	^	2	26
+	.	2	26
+	+	2	26
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/101-clean_emacs
+	*	1690987651	0
+	"	2	4
+	^	2	5
+	.	2	4
+	+	2	4
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/100-lets_move
+	*	1690987558	0
+	"	2	21
+	^	2	22
+	.	2	21
+	+	2	21
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/14-copy_html
+	*	1690987218	0
+	"	2	12
+	^	2	13
+	.	2	13
+	+	2	13
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/13-symbolic_link
+	*	1690986439	0
+	"	2	13
+	^	2	14
+	.	2	13
+	+	2	13
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/12-file_type
+	*	1690986404	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	2	11
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/11-lists
+	*	1690986082	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	2	15
+	+	1	1
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/10-back
+	*	1690985717	0
+	"	2	3
+	^	2	4
+	.	3	0
+	+	3	0
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+	*	1690985664	0
+	"	1	10
+	^	1	11
+	.	2	0
+	+	1	11
+	+	2	0
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
+	*	1690985449	0
+	"	2	31
+	^	2	32
+	.	3	0
+	+	3	0
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile
+	*	1690985399	0
+	"	2	12
+	^	2	13
+	.	2	13
+	+	2	13
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
+	*	1690985271	0
+	"	2	4
+	^	2	5
+	.	2	5
+	+	2	5
+
+> /tmp/6-firstdirectory
+	*	1690985230	0
 	"	1	0
 	^	1	0
-	.	1	0
-	+	1	0
 
-> ~/0x03_vi/pasting
-	*	1690213923	0
-	"	1	0
-	^	1	1
-	.	1	0
-	+	2	0
-	+	1	0
+> ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
+	*	1690985080	0
+	"	2	5
+	^	2	6
+	.	2	5
+	+	2	5
 
-> ~/0x03_vi/cutting
-	*	1690213856	0
+> ~/alx-system_engineering-devops/0x00-shell_basics/5-listfilesdigitonly
+	*	1690984777	0
+	"	2	5
+	^	2	6
+	.	2	5
+	+	2	5
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/3-listfiles
+	*	1690984686	0
+	"	2	4
+	^	2	5
+	.	3	0
+	+	3	0
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+	*	1690984547	0
+	"	2	1
+	^	2	2
+	.	2	1
+	+	2	1
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home
+	*	1690984399	0
+	"	2	4
+	^	2	5
+	.	2	4
+	+	2	4
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+	*	1690983903	0
+	"	2	2
+	^	2	3
+	.	3	0
+	+	1	0
+	+	2	2
+	+	1	1
+	+	2	3
+	+	3	0
+
+> ~/alx-zero_day/0x03-git/.gitignore
+	*	1690920097	0
 	"	1	1
 	^	1	2
 	.	1	1
 	+	1	1
 
-> ~/0x03_vi/inserting
-	*	1690213730	0
-	"	1	0
-	^	1	1
-	.	1	0
-	+	1	0
-
-> /alx-pre_course/0x01-git/bash/school
-	*	1690128829	0
-	"	2	24
-	^	2	25
-	.	2	24
-	+	2	0
-	+	1	6
-	+	2	24
-
-> /alx-pre_course/0x01-git/bash/alx
-	*	1690128420	0
+> ~/alx-zero_day/0x03-git/bash/alx
+	*	1690919399	0
 	"	2	15
 	^	2	16
-	.	2	16
+	.	2	15
+	+	1	37
 	+	1	38
-	+	2	28
-	+	2	16
+	+	2	44
+	+	1	11
+	+	2	0
+	+	1	11
+	+	3	0
+	+	2	15
 
-> /alx-pre_course/0x01-git/up_to_date
-	*	1690127814	0
-	"	1	7
-	^	1	8
-	.	1	7
-	+	1	7
+> ~/alx-zero_day/0x03-git/bash/school
+	*	1690919296	0
+	"	2	5
+	^	2	6
+	.	3	0
+	+	2	6
+	+	2	24
+	+	2	6
+	+	3	0
 
-> /alx-pre_course/.git/MERGE_MSG
-	*	1690126883	0
+> ~/alx-zero_day/0x03-git/alx
+	*	1690918540	0
 	"	1	0
-	^	1	0
+	^	2	10
+	.	2	7
+	+	2	7
