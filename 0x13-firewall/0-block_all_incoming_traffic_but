@@ -1,7 +1,6 @@
 sudo apt get
 sudo apt install ufw
 sudo ufw default deny incoming
-sudo ufw default deny incoming
 sudo ufw allow OpenSSH
 sudo ufw allow https
 sudo ufw allow http
