@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # Function to add or update an entry in /etc/hosts,localhost,facebook
 add_or_update_host() {
-    local IP=$1
-    local HOSTNAME=$2
-    if grep -q "$HOSTNAME" /etc/hosts; then
-        sudo sed -i "s/.*$HOSTNAME.*/$IP $HOSTNAME/" /etc/hosts
-    else
-        echo "$IP $HOSTNAME" | sudo tee -a /etc/hosts
-    fi
+	local IP=$1
+	local HOSTNAME=$2
+	if grep -q "$HOSTNAME" /etc/hosts; then
+		cp /etc/hosts ~/hosts.new
+		sed -i "s/.*$HOSTNAME.*/$IP $HOSTNAME/" ~/hosts.new
+		cp -f ~/hosts.new /etc/hosts
+	fi
 }
 
 # Update localhost to resolve to 127.0.0.2
