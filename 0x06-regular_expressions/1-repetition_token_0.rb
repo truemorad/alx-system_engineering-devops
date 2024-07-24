@@ -3,7 +3,7 @@
 line = ARGV[0]
 
 # Define a regular expression pattern to match the word "School"
-pattern = //hbt+n/
+pattern = /hbt+n/
 
 # Find all matches in the line
 matches = line.scan(pattern)
