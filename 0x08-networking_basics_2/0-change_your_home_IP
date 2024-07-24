@@ -1,17 +1,7 @@
 #!/usr/bin/env bash
 # Function to add or update an entry in /etc/hosts,localhost,facebook
-add_or_update_host() {
-	local IP=$1
-	local HOSTNAME=$2
-	if grep -q "$HOSTNAME" /etc/hosts; then
-		cp /etc/hosts ~/hosts.new
-		sed -i "s/.*$HOSTNAME.*/$IP $HOSTNAME/" ~/hosts.new
-		cp -f ~/hosts.new /etc/hosts
-	fi
-}
 
-# Update localhost to resolve to 127.0.0.2
-add_or_update_host "127.0.0.2" "localhost"
-
-# Add facebook.com to resolve to 8.8.8.8
-add_or_update_host "8.8.8.8" "facebook.com"
+cp /etc/hosts ~/hosts.new
+echo "127.0.0.2		localhost" > ~/hosts.new
+echo "8.8.8.8		facebook.com" >> ~/hosts.new
+cp -f ~/hosts.new /etc/hosts
