@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-
+# pc list
 # shellcheck disable=SC2009
 ps aux | grep '[b]ash'

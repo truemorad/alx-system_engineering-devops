@@ -1,4 +1,20 @@
 #!/usr/bin/env bash
 #this is a pid with bash
 # shellcheck disable=SC2009
-echo "$$ bash"
+# Iterate over directories in /proc which are numeric (these are PIDs)
+for pid in /proc/[0-9]*; do
+    # Extract PID from the directory name
+    pid=${pid#/proc/}
+
+    # Check if the executable path exists
+    if [ -f "/proc/$pid/comm" ]; then
+        # Read the process name from /proc/[pid]/comm
+        proc_name=$(cat "/proc/$pid/comm")
+
+        # Check if the process name contains the word "bash"
+        if [[ "$proc_name" == *bash* ]]; then
+            # Display PID and process name
+            echo "$pid: $proc_name"
+        fi
+    fi
+done
