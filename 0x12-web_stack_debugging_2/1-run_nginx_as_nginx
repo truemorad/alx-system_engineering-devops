@@ -9,5 +9,24 @@ sudo sed -i 's/user www-data;/user nginx;/g' /etc/nginx/nginx.conf
 sudo sed -i 's/listen 80 default_server;/listen 8080 default_server;/g' /etc/nginx/sites-available/default
 sudo sed -i 's/listen \[::\]:80 default_server;/listen [::]:8080 default_server;/g' /etc/nginx/sites-available/default
 
+sudo chown -R nginx:nginx /var/log/nginx
+sudo chown -R nginx:nginx /var/lib/nginx
+
 # Restart Nginx
 sudo systemctl restart nginx
+
+# Verify Nginx is running and listening on port 8080
+if sudo systemctl status nginx | grep -q "active (running)"; then
+    echo "Nginx is running."
+else
+    echo "Nginx failed to start."
+    exit 1
+fi
+
+# Check if Nginx is listening on port 8080
+if sudo ss -tuln | grep -q ":8080"; then
+    echo "Nginx is listening on port 8080."
+else
+    echo "Nginx is not listening on port 8080."
+    exit 1
+fi
