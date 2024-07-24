@@ -15,5 +15,3 @@ add_or_update_host "127.0.0.2" "localhost"
 
 # Add facebook.com to resolve to 8.8.8.8
 add_or_update_host "8.8.8.8" "facebook.com"
-
-echo "Hosts file updated successfully."
