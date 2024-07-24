@@ -5,27 +5,20 @@ sudo apt-get update
 sudo apt-get install -y nginx
 
 # Create a simple HTML file that contains "Hello World!"
-echo "<html>
-<head>
-    <title>Hello World!</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-</body>
-</html>" | sudo tee /var/www/html/index.html
+echo "Hello World!" | sudo tee /var/www/html/index.html
 
 # Ensure Nginx is enabled and started
 sudo systemctl enable nginx
 sudo systemctl start nginx
 
 # Check if Nginx is running and listening on port 80
-if sudo systemctl status nginx | grep -q "active (running)"; then
+if sudo systemctl status nginx | grep -q "active (running)";
 else
     exit 1
 fi
 
 # Verify Nginx serves the "Hello World!" page
-if curl -s http://localhost | grep -q "Hello World!"; then
+if curl -s http://localhost | grep -q "Hello World!";
 else
     exit 1
 fi
