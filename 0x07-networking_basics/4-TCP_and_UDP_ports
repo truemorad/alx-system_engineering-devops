@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 # Display listening ports with PID and program name
-echo "Active Internet connections (only servers)"
-
 # Get listening sockets with PID and program name
 ss -tulnp | awk 'NR>1 {print $1, $5, $7}' | while read -r line; do
     # Parse the protocol, address, and PID/Program
@@ -14,7 +12,6 @@ ss -tulnp | awk 'NR>1 {print $1, $5, $7}' | while read -r line; do
         # Extract PID and Program Name
         pid=$(echo $pid_program | cut -d',' -f1)
         program=$(echo $pid_program | cut -d',' -f2)
-        echo "protocol		address		pid	program"
         echo "$protocol		$address	$pid	$program"
     fi
 done
