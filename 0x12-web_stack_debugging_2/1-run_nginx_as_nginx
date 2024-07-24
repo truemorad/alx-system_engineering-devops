@@ -1,28 +1,8 @@
 #!/usr/bin/env bash
-# Create nginx user if it doesn't exist
-if ! id -u nginx >/dev/null 2>&1; then
-    sudo useradd -r -s /sbin/nologin nginx
-fi
-
 # Configure Nginx to run as nginx user and listen on port 8080
 sudo sed -i 's/user www-data;/user nginx' /etc/nginx/nginx.conf
 sudo sed -i 's/80/8080/g' /etc/nginx/sites-available/default
-sudo sed -i 's/listen \[::\]:80 default_server;/listen [::]:8080 default_server;/g' /etc/nginx/sites-available/default
+
 # Restart Nginx
+sudo chmod 644 /etc/nginx/nginx.conf
 sudo -u nginx service nginx restart
-
-# Verify Nginx is running and listening on port 8080
-if sudo systemctl status nginx | grep -q "active (running)"; then
-    echo "Nginx is running."
-else
-    echo "Nginx failed to start."
-    exit 1
-fi
-
-# Check if Nginx is listening on port 8080
-if sudo ss -tuln | grep -q ":8080"; then
-    echo "Nginx is listening on port 8080."
-else
-    echo "Nginx is not listening on port 8080."
-    exit 1
-fi
