@@ -6,4 +6,4 @@ if [ $# -eq 0 ]; then
 fi
 
 IP=$1
-ping -c 5 $IP
+ping -c 5 "$IP"
