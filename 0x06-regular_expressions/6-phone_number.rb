@@ -3,10 +3,10 @@
 line = ARGV[0]
 
 # Define a regular expression pattern to match the word "School"
-pattern = /^h.n$/
+pattern = /^\d{0,10}$/
 
 # Find all matches in the line
-match = line.scan(pattern)
+matches = line.scan(pattern)
 
 # Output each match
-puts match.join(" ")
+  puts matches.join("")
