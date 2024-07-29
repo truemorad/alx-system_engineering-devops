@@ -9,7 +9,6 @@ if __name__ == "__main__":
     users = user.json()
     todos_url = requests.get('https://jsonplaceholder.typicode.com/todos')
     todos = todos_url.json()
-    
     todolist = {}
 
     for user in users:
@@ -24,4 +23,3 @@ if __name__ == "__main__":
 
     with open('todo_all_employees.json', mode='w') as f:
         json.dump(todolist, f)
-
