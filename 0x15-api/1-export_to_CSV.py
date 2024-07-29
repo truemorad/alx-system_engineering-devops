@@ -10,7 +10,7 @@ if __name__ == "__main__":
                         .format(USER_ID))
     name = user.json()
 
-    USERNAME = name.get('name')
+    USERNAME = name.get('username')
 
     todos_url = requests.get('https://jsonplaceholder.typicode.com/todos')
     if todos_url.status_code == 200:
