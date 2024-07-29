@@ -11,18 +11,17 @@ if __name__ == "__main__":
 
     todos_url = requests.get('https://jsonplaceholder.typicode.com/todos')
     todos = todos_url.json()
-    
     todouser = {}
     tasklist = []
 
     for task in todos:
         if task.get('userId') == int(USER_ID):
             taskDict = {"task": task.get('title'),
-                         "completed": task.get('completed'),
-                         "username": user.json().get('username')}
+                        "completed": task.get('completed'),
+                        "username": user.json().get('username')}
             tasklist.append(taskDict)
     todouser[USER_ID] = tasklist
 
     filename = USER_ID + '.json'
     with open(filename, mode='w') as f:
-        json.dump(todouser,f)
+        json.dump(todouser, f)
