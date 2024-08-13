@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
- a script that returns top ten hot title for a post.
+i miss c :(
 """
 import requests
 
