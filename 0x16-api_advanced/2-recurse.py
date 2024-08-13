@@ -11,14 +11,13 @@ def recurse(subreddit, hot_list=[], after=""):
     params = {'after': after}
     response = requests.get(api, headers=headers,
                             allow_redirects=False, params=params)
-    if response.status_code == 404:
-        return None
-    else:
+    if response.status_code == 200:
         for post in response.json().get('data').get('children'):
             hot_list.append(post.get('data').get('title'))
         after = response.json().get("data").get("after")
-
-        if after is None:
-            return hot_list
-        else:
-            return recurse(subreddit, hot_list, after)
+    else:
+        return None
+    if after is None:
+        return hot_list
+    else:
+        return recurse(subreddit, hot_list, after)
