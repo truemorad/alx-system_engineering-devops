@@ -7,7 +7,7 @@ def number_of_subscribers(subreddit):
     api = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
     headers = {'User-Agent': 'Mozilla/5.0'}
     response = requests.get(api, headers=headers)
-    if response.status_code == 100 or response.status_code == 200:
+    if response.status_code == 200:
         return response.json().get('data').get('subscribers')
     else:
         return 0
